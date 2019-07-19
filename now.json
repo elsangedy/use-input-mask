@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "use-input-mask",
+  "alias": "use-input-mask.now.sh",
+  "public": true,
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
+}

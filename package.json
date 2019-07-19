@@ -1,0 +1,44 @@
+{
+  "name": "use-input-mask",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Munir Ahmed Elsangedy",
+    "email": "elsangedy@gmail.com",
+    "url": "https://munir.dev"
+  },
+  "homepage": "https://use-input-mask.now.sh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elsangedy/use-input-mask.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elsangedy/use-input-mask/issues"
+  },
+  "main": "dist/use-input-mask.cjs.js",
+  "module": "dist/use-input-mask.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "now-build": "yarn build:docs",
+    "dev": "docz dev",
+    "build:docs": "docz build",
+    "build": "kcd-scripts build --bundle"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "text-mask-core": "^5.1.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "docz": "^1.2.0",
+    "docz-theme-default": "^1.2.0",
+    "kcd-scripts": "^1.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "text-mask-addons": "^3.8.0"
+  }
+}

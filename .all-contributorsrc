@@ -1,0 +1,34 @@
+{
+  "projectName": "use-input-mask",
+  "projectOwner": "elsangedy",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "elsangedy",
+      "name": "Munir Ahmed Elsangedy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5339664?v=4",
+      "profile": "https://munir.dev",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "renatorib",
+      "name": "Renato Ribeiro",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3277185?v=4",
+      "profile": "http://twitter.com/renatorib_",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

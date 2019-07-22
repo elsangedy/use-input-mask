@@ -1,8 +1,8 @@
 # use-input-mask
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
-![MIT License][license-badge] [![downloads][downloads-badge]][npmcharts]
+![MIT License][license-badge]
+[![downloads][downloads-badge]][npmcharts]
 [![PRs Welcome][prs-badge]][prs]
 
 ## Installation
@@ -20,34 +20,33 @@ import React from 'react'
 
 import useInputMask from 'use-input-mask'
 
-import { createAutoCorrectedDatePipe } from 'text-mask-addons'
+import { createAutoCorrectedDatePipe } from "text-mask-addons";
 
 const MyDateInput = props => {
-  const input = useRef(null)
+  const input = useRef(null);
 
-  const autoCorrectedDatePipe = createAutoCorrectedDatePipe('dd/mm/yyyy HH:MM')
+  const autoCorrectedDatePipe = createAutoCorrectedDatePipe("dd/mm/yyyy HH:MM");
 
   const onChange = useInputMask({
     input,
     onChange: props.onChange,
-    mask: [/\d/, /\d/, '/', /\d/, /\d/, '/', /\d/, /\d/, /\d/, /\d/],
+    mask: [/\d/, /\d/, "/", /\d/, /\d/, "/", /\d/, /\d/, /\d/, /\d/],
     pipe: autoCorrectedDatePipe,
-    keepCharPositions: true,
-  })
+    keepCharPositions: true
+  });
 
-  return <input {...props} ref={input} onChange={onChange} />
-}
+  return <input {...props} ref={input} onChange={onChange} />;
+};
 
 export default MyDateInput
 ```
 
 ## Roadmap
-
-- [ ] tests
-- [ ] ci/cd
-- [ ] semantic-release
-- [ ] docs
-- [ ] all-contributors
+* [ ] tests
+* [ ] ci/cd
+* [ ] semantic-release
+* [ ] docs
+* [x] all-contributors
 
 ## Inspiration
 
@@ -55,8 +54,7 @@ export default MyDateInput
 
 ## Contributors
 
-Thanks goes to these wonderful people
-([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -70,22 +68,16 @@ Thanks goes to these wonderful people
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the
-[all-contributors](https://github.com/all-contributors/all-contributors)
-specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## LIENSE
 
 MIT
 
-[license-badge]:
-  https://img.shields.io/npm/l/use-input-mask.svg?style=flat-square
-[downloads-badge]:
-  https://img.shields.io/npm/dm/use-input-mask.svg?style=flat-square
-[prs-badge]:
-  https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[license-badge]: https://img.shields.io/npm/l/use-input-mask.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dm/use-input-mask.svg?style=flat-square
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [npmcharts]: http://npmcharts.com/compare/use-input-mask

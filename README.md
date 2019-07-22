@@ -1,9 +1,8 @@
 # use-input-mask
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
 ![MIT License][license-badge]
 [![downloads][downloads-badge]][npmcharts]
 [![PRs Welcome][prs-badge]][prs]
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 ## Installation
 

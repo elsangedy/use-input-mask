@@ -24,7 +24,8 @@
     "now-build": "yarn build:docs",
     "dev": "docz dev",
     "build:docs": "docz build",
-    "build": "kcd-scripts build --bundle"
+    "build": "kcd-scripts build --bundle",
+    "add-contributor": "all-contributors add"
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
@@ -34,6 +35,7 @@
     "react": ">=16.8"
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.8.1",
     "docz": "^1.2.0",
     "docz-theme-default": "^1.2.0",
     "kcd-scripts": "^1.4.0",

@@ -1,7 +1,7 @@
 export default {
   dest: '/dist',
   codeSandbox: false,
-  repository: 'https://github.com/elsangedy/use-downshift',
+  repository: 'https://github.com/elsangedy/use-input-mask',
   menu: [
     'Home',
     {
